@@ -1,0 +1,7 @@
+version: pipelines/v0.1
+name: themeparks data
+timeout: 0
+data_components:
+- tap-theme-parks
+- Warehouse
+- dbt
